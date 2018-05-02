@@ -1,0 +1,13 @@
+books:
+  - name: Title
+    type: Case Insensitive Text
+  - name: Author
+    type: Case Insensitive Text
+  - name: Recommended by
+    type: Case Insensitive Text
+  - name: Description
+    type: Case Insensitive Text
+  - name: Category
+    type: Short Text
+  - name: Link
+    type: Text

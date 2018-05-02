@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pensieve</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Ubuntu+Mono">
+    <script src="https://resin-production-downloads.s3.amazonaws.com/pensieve/latest/pensieve.js"></script>
+  </head>
+  <body>
+    <div id="pensieve"></div>
+
+    <script>
+        Pensieve({
+          schema: 'schema.yaml',
+          contentPath: 'books',
+          repo: {
+            name: 'resin-books',
+            account: 'resin-io-playground',
+            file: 'books.yaml',
+            // The name of the commit/branch/tag. usually the repository’s default branch (eg master)
+            ref: 'master'
+          }
+        });
+    </script>
+  </body>
+</html>
