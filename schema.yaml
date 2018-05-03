@@ -1,13 +1,21 @@
-books:
-  - name: Title
+- name: title
+  type: Case Insensitive Text
+- '0':
+    name: Title
     type: Case Insensitive Text
-  - name: Author
+  '1':
+    name: Author
     type: Case Insensitive Text
-  - name: Recommended by
+  '2':
+    name: Recommended by
     type: Case Insensitive Text
-  - name: Description
+  '3':
+    name: Description
     type: Case Insensitive Text
-  - name: Category
+  '4':
+    name: Category
     type: Short Text
-  - name: Link
+  '5':
+    name: Link
     type: Text
+  name: books
