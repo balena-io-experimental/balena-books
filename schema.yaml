@@ -1,21 +1,12 @@
-- name: title
+- name: Title
   type: Case Insensitive Text
-- '0':
-    name: Title
-    type: Case Insensitive Text
-  '1':
-    name: Author
-    type: Case Insensitive Text
-  '2':
-    name: Recommended by
-    type: Case Insensitive Text
-  '3':
-    name: Description
-    type: Case Insensitive Text
-  '4':
-    name: Category
-    type: Short Text
-  '5':
-    name: Link
-    type: Text
-  name: books
+- name: Author
+  type: Case Insensitive Text
+- name: Recommended by
+  type: Case Insensitive Text
+- name: Description
+  type: Case Insensitive Text
+- name: Category
+  type: Short Text
+- name: Link
+  type: Text
