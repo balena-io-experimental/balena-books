@@ -1,5 +1,3 @@
-- name: title
-  type: Case Insensitive Text
 - '0':
     name: Title
     type: Case Insensitive Text
@@ -18,4 +16,3 @@
   '5':
     name: Link
     type: Text
-  name: books
